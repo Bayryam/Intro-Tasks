@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09e5103b-14fa-414e-9e00-fb5b34cb260d" name="Changes" comment="Added Center of gravity finder">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArraySorting/ArrayQuickActions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Reverse/ArrayReverser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SummingLargeNumbers/LargeNumbersClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Reverse/ArrayReverserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/SummingLargeNumbers/LargeNumbersClassTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="09e5103b-14fa-414e-9e00-fb5b34cb260d" name="Changes" comment="ArrayReverser and LargeNumberSumer added">
+      <change afterPath="$PROJECT_DIR$/src/Passwords/PasswordGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +17,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit3 Test Class" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -99,7 +93,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694678992418</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ArrayReverser and LargeNumberSumer added">
+      <option name="closed" value="true" />
+      <created>1694691563797</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694691563797</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,6 +130,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="GCD and ArrayProcessing tasks" />
     <MESSAGE value="Added Center of gravity finder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Center of gravity finder" />
+    <MESSAGE value="ArrayReverser and LargeNumberSumer added" />
+    <option name="LAST_COMMIT_MESSAGE" value="ArrayReverser and LargeNumberSumer added" />
   </component>
 </project>
