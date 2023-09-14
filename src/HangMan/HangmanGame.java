@@ -2,7 +2,7 @@ package HangMan;
 
 import Passwords.PasswordGenerator;
 
-import java.io.IOException;
+
 import java.util.Random;
 import java.util.Scanner;
 
@@ -70,9 +70,7 @@ public class HangmanGame {
 
 
     private void fillWordPresentation() {
-        for (int i = 0; i < wordPresentation.capacity(); i++) {
-            wordPresentation.append(HIDING_SYMBOL);
-        }
+        wordPresentation.append(String.valueOf(HIDING_SYMBOL).repeat(wordPresentation.capacity()));
     }
 
     private void replaceGuessedSymbolInPresentation(char symbol) {
