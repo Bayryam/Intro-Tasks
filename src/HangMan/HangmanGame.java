@@ -10,8 +10,8 @@ public class HangmanGame {
     private final static int MAX_WORD_LENGTH = 20;
     private final static char HIDING_SYMBOL = '*';
     private int lives = 8;
-    private  StringBuilder wordPresentation;
-    private final String wordToBeGuessed;
+    private StringBuilder wordPresentation;
+    private  String wordToBeGuessed;
 
 
     public HangmanGame() {
