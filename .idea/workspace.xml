@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09e5103b-14fa-414e-9e00-fb5b34cb260d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intro Tasks.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayProcessing/ArrayProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GCD/ClassA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GCD/ClassB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ArrayProcessing/ArrayProcessorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/GCD/ClassATest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/GCD/ClassBTest.java" afterDir="false" />
+    <list default="true" id="09e5103b-14fa-414e-9e00-fb5b34cb260d" name="Changes" comment="GCD and ArrayProcessing tasks">
+      <change afterPath="$PROJECT_DIR$/src/CenterOfGravity/ArrayManipulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/CenterOfGravity/ArrayManipulatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +62,7 @@
       <recent name="junit.framework.TestCase" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="CenterOfGravity" />
       <recent name="ArrayProcessing" />
       <recent name="GCD" />
     </key>
@@ -87,6 +76,42 @@
       <option name="presentableId" value="Default" />
       <updated>1694673016615</updated>
     </task>
+    <task id="LOCAL-00001" summary="GCD and ArrayProcessing tasks">
+      <option name="closed" value="true" />
+      <created>1694677173483</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694677173484</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="GCD and ArrayProcessing tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="GCD and ArrayProcessing tasks" />
   </component>
 </project>
