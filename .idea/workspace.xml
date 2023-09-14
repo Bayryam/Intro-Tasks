@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09e5103b-14fa-414e-9e00-fb5b34cb260d" name="Changes" comment="ArrayReverser and LargeNumberSumer added">
-      <change afterPath="$PROJECT_DIR$/src/Passwords/PasswordGenerator.java" afterDir="false" />
+    <list default="true" id="09e5103b-14fa-414e-9e00-fb5b34cb260d" name="Changes" comment="PasswordGenerator added">
+      <change afterPath="$PROJECT_DIR$/src/HangMan/HangmanGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +102,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694691563797</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="PasswordGenerator added">
+      <option name="closed" value="true" />
+      <created>1694694544927</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694694544927</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,6 +140,7 @@
     <MESSAGE value="GCD and ArrayProcessing tasks" />
     <MESSAGE value="Added Center of gravity finder" />
     <MESSAGE value="ArrayReverser and LargeNumberSumer added" />
-    <option name="LAST_COMMIT_MESSAGE" value="ArrayReverser and LargeNumberSumer added" />
+    <MESSAGE value="PasswordGenerator added" />
+    <option name="LAST_COMMIT_MESSAGE" value="PasswordGenerator added" />
   </component>
 </project>
