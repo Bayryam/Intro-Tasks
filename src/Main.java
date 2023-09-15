@@ -5,13 +5,18 @@ import HangMan.HangmanGame;
 
 import Passwords.PasswordGenerator;
 
+import ArraySorting.ArrayQuickActions;
+
 import java.util.Random;
 
 public class Main {
 
     public static void main(String[] args) {
-        HangmanGame game = new HangmanGame();
-        game.run();
+        int[] ar = {3,2,54,1};
+        ArrayQuickActions.quickSort(ar,0,ar.length-1);
+        for (int i :ar){
+            System.out.println(i);
+        }
 
     }
 }
