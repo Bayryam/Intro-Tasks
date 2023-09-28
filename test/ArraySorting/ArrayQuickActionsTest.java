@@ -9,7 +9,7 @@ import static org.junit.Assert.*;
 public class ArrayQuickActionsTest {
 
     @Test
-    public void testQuickSort()
+    public void quickSort_UnsortedArray_SortedArray()
     {
         int[] ar = {3,2,54,1};
         ArrayQuickActions.quickSort(ar,0,3);

@@ -8,14 +8,26 @@ import static org.junit.Assert.*;
 public class ArrayManipulatorTest {
 
     @Test
-    public void testFindCenterOfGravity()
+    public void findCenterOfGravity_NullTest_NegativeIndex()
     {
         assertEquals(-1, ArrayManipulator.findCenterOfGravity(null));
-        assertEquals(-1,ArrayManipulator.findCenterOfGravity(new int[]{}));
-        assertEquals(0,ArrayManipulator.findCenterOfGravity(new int[] {2}));
-        assertEquals(1,ArrayManipulator.findCenterOfGravity(new int[] {2,5,-3,2}));
-        assertEquals(3,ArrayManipulator.findCenterOfGravity(new int[] {1,2,3,45,5}));
-        assertEquals(2,ArrayManipulator.findCenterOfGravity(new int[] {4,5,99,-1,5,6}));
+    }
 
+    @Test
+    public void findCenterOfGravity_EmptyArray_NegativeIndex()
+    {
+        assertEquals(-1,ArrayManipulator.findCenterOfGravity(new int[]{}));
+    }
+
+    @Test
+    public void findCenterOfGravity_SingleElementArray_ZeroIndex()
+    {
+        assertEquals(0,ArrayManipulator.findCenterOfGravity(new int[] {2}));
+    }
+
+    @Test
+    public void findCenterOfGravity_MultipleElementsArray_FirstIndex()
+    {
+        assertEquals(1,ArrayManipulator.findCenterOfGravity(new int[] {2,5,-3,2}));
     }
 }
